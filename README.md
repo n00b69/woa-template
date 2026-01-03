@@ -1,10 +1,9 @@
 # Windows on ARM Introduction
 
-![Windows running on several supported devices](A collage of all supported devices will be visible here)
+![Windows running on several supported devices](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/somerandomtrashexample.png)
 
 
 ## A few notes
-
 > [!NOTE]
 > Welcome! Thanks for being interested in trying out this project. We thought the following notes may interest you first before proceeding further: 
 >
@@ -13,21 +12,21 @@
 > If your main purpose of installing Windows on your Android device is gaming, we recommend you to seek out other projects or emulators that might offer a better experience for you.
 
 
-
 ## Terms & Conditions
-All files and instructions in this guide have been provided and maintained by a select few trusted individuals, and have been exposed to extensive testing. As a result, they can be considered safe to use.
+- All files and instructions in this guide have been provided and maintained by a select few trusted individuals, and have been exposed to extensive testing. As a result, they can be considered safe to use.
 
-While we try to ensure all features listed in the guide are functioning for everyone, we cannot guarantee an equally satisfactory outcome on your personal devices due to factors such as, but not limited to, unoriginal hardware.
+- While we try to ensure all features listed in the guide are functioning for everyone, we cannot guarantee an equally satisfactory outcome on your personal devices due to factors such as, but not limited to, unoriginal hardware.
 
-We're not responsible for bricked devices, missing partitions, dead MicroSD cards, dead PMICs, dead RAM, dead display ICs, dead CPUs, dead cats or dogs, nuclear wars, you missing the birth of your child because you were not able to receive phone calls in Windows, or you getting fired because you forgot to boot back into Android for the alarm.
+- We're not responsible for bricked devices, missing partitions, dead MicroSD cards, dead PMICs, dead RAM, dead display ICs, dead CPUs, dead cats or dogs, nuclear wars, you missing the birth of your child because you were not able to receive phone calls in Windows, or you getting fired because you forgot to boot back into Android for the alarm.
 
-The installation of Windows on your device is a delicate process with several critical steps. While it has gotten a lot easier and safer over the years, we strongly urge you to read every step properly. If you deviate from any step for whatever reason **we will not provide support to you**. Always ask for help (e.g by joining the Telegram chat linked below on this page) if you are unsure about something.
+- The installation of Windows on your device is a delicate process with several critical steps. While it has gotten a lot easier and safer over the years, we strongly urge you to read every step properly. If you deviate from any step for whatever reason **we will not provide support to you**. Always ask for help (e.g by joining the Telegram chat linked below on this page) if you are unsure about something.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE, OR YOU ARE PARANOID OF BRICKING YOUR DEVICE, CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
-
+> [!Warning]
+> **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE, OR YOU ARE PARANOID OF BRICKING YOUR DEVICE, CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
 
 _**By pressing the below button, you acknowledge that you have a functioning brain and have read & agreed to the afore mentioned Terms & Conditions of this introduction.**_
+
 [Click here to continue](guide/pageselection.md)
 
 
