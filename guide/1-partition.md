@@ -60,11 +60,7 @@ adb shell sgdisk --resize-table 64 /dev/block/sda
 adb shell
 ```
 
-### Preparing for partitioning
-> [!Note]
-> If at any moment in parted you see an error prompting you to type "Yes/No" or "Ignore/Cancel", type `Yes` or `Ignore` depending on the situation to ignore the errors and continue.
->
-> If you see any **udevadm** errors, you can ignore these as well.
+### Opening parted
 ```cmd
 parted /dev/block/sda
 ```
@@ -76,8 +72,11 @@ print
 ``` 
 
 > This list may be complicated to understand, so here is a short example showcasing the **userdata** partition.
+
 Number  Start   End     Size    File system  Name
+
 31      8811MB  512GB   503GB   ext4         userdata
+
 > The first number, in this case **31** is the partition number.
 >
 > The second number, in this case **8811MB**, is the start value of this partition.
@@ -96,14 +95,13 @@ Number  Start   End     Size    File system  Name
 - > Delete below line if not LG
 > 
 > If there is a partition named **grow** after **userdata**, remove it as well.
-> 
+```cmd
+rm $
+```
 > If there is an error (like pictured below) asking you if you want to continue, type `yes`.
 ![Are you sure you want to continue?](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-usedpartition.png)
 > If there are any `udevadm` errors (like pictured below), ignore them.
 ![udevadm](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-udevadm.png)
-```cmd
-rm $
-``` 
 
 ### Recreating userdata
 - > IF VAYU:, 11.7GB / 70GB / =58.3GB
@@ -119,17 +117,15 @@ rm $
 - > IF G8/G8S/G8X/V50; 19.3GB / 70GB / =50.7GB
 
 - > IF V50S; 19.3GB / 128GB / =108.7GB
-> Replace **19.3GB** with the former start value of **userdata** which we just deleted. This value differs per device model, so make sure you grab the actual value of the partition list.
->
-> Add the amount of space you want Android to have to this start value to get the **end value**.
+
+> Replace **19.3GB** with the former start value of **userdata** which we just deleted. This value differs per device model, so make sure you grab the actual value from the partition list.
 
 > Replace **70GB** with the end value you want **userdata** to have. In this example your available usable space in Android will be 70GB-19.3GB = **50.7GB**.
->
-> If there is an error (like pictured below) complaining about the partition not being properly aligned, type `ignore` to continue.
-![Not properly aligned.](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-aligned.png)
 ```cmd
 mkpart userdata ext4 19.3GB 70GB
-``` 
+```
+> If there is an error (like pictured below) complaining about the partition not being properly aligned, type `ignore` to continue.
+![Not properly aligned.](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-aligned.png)
 
 ### Creating the ESP partition
 > Replace **70GB** with the actual end value of **userdata**.
