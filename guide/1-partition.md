@@ -71,6 +71,9 @@ parted /dev/block/sda
 print
 ``` 
 
+> [!Nore]
+> Note to M2K, this whole list is unfinished (I know it looks bad)
+
 > This list may be complicated to understand, so here is a short example showcasing the **userdata** partition.
 
 Number  Start   End     Size    File system  Name
@@ -100,6 +103,7 @@ rm $
 ```
 > If there is an error (like pictured below) asking you if you want to continue, type `yes`.
 ![Are you sure you want to continue?](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-usedpartition.png)
+
 > If there are any `udevadm` errors (like pictured below), ignore them.
 ![udevadm](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-udevadm.png)
 
