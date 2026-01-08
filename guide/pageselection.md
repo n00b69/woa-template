@@ -6,10 +6,10 @@ If this is your first time visiting this page, please continue with the **Projec
 
 ## Get started
 - [Project status](guide/status.md)
-> How the hell do I even unify the status page
 
-- [Installation instructions](guide/1-partition.md)
+- [Installation instructions](guide/1-partition.md) `delete if LG`
 
+- [Installation instructions](guide/1-lg.md) `delete if not LG`
 
 ## Miscellaneous
 - [Troubleshooting](guide/troubleshooting.md)
