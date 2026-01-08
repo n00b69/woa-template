@@ -21,9 +21,6 @@
 
 - We're not responsible for bricked devices, missing partitions, dead MicroSD cards, dead PMICs, dead RAM, dead display ICs, dead CPUs, dead cats or dogs, nuclear wars, you missing the birth of your child because you were not able to receive phone calls in Windows, or you getting fired because you forgot to boot back into Android for the alarm.
 
-> [!Warning]
-> **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE, OR YOU ARE PARANOID OF BRICKING YOUR DEVICE, CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
-
 
 [_**Click here to acknowledge that you have a functioning brain and have read & agreed to the Terms & Conditions.**_](guide/pageselection.md)
 
@@ -32,13 +29,7 @@
 Please join [our Telegram group](https://t.me/project_aloha_issues) if you need any assistance!
 
 
-_**© 2025-2026 The Project Aloha Authors**_
-
-_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated and Microsoft Surface._
-
-_**Limited (emergency) calling**_
-
-_The Windows operating system is not a replacement for Android and does not have (emergency) calling capabilities, even if your device may originally have such functionality._
+_**© 2025-2026 M2K Co. Ltd.**_
 
 
 ## Maintainers
