@@ -5,22 +5,22 @@
 If this is your first time visiting this page, please continue with the **Project status** or the **Installation instructions**, else feel free to browse the other pages.
 
 ## Get started
-- [Project status](guide/status.md)
+- [Project status](status.md)
 
-- [Installation instructions](guide/1-partition.md) `delete if LG`
+- [Installation instructions](1-partition.md) `delete if LG`
 
-- [Installation instructions](guide/1-lg.md) `delete if not LG`
+- [Installation instructions](1-lg.md) `delete if not LG`
 
 ## Miscellaneous
-- [Troubleshooting](guide/troubleshooting.md)
+- [Troubleshooting](troubleshooting.md)
 
-- [Additional materials](guide/materials.md)
+- [Additional materials](materials.md)
 
-- [Update drivers](guide/update.md)
+- [Update drivers](update.md)
 
-- [Reinstall instructions](guide/reinstall.md)
+- [Reinstall instructions](reinstall.md)
 
-- [Uninstall instructions](guide/uninstall.md)
+- [Uninstall instructions](uninstall.md)
 
 
 
