@@ -7,13 +7,13 @@
 > [!NOTE]
 > Welcome! Thanks for being interested in trying out this project. We thought the following notes may interest you first before proceeding further: 
 >
-> We do not recommend you to buy one of the supported devices specifically to try this without fully understanding what you're getting into. We do not commit to future work or potential functionality. Buy the device for what it can offer you today, not tomorrow, or you may regret it later. If you already own a supported device and want to try it, feel free to do so. 
+> We do not commit to future work or potential functionality. Buy the device for what it can offer you today, not tomorrow, or you may regret it later. If you already own a supported device and want to try it, feel free to do so. 
 >
 > If your main purpose of installing Windows on your Android device is gaming, we recommend you to seek out other projects or emulators that might offer a better experience for you.
 
 
 ## Terms & Conditions
-- All files and instructions in this guide have been provided and maintained by a select few trusted individuals, and have been exposed to extensive testing. As a result, they can be considered safe to use.
+- All files and instructions in this guide have been provided and maintained by the device maintainer or a select few trusted individuals, and have been exposed to extensive testing. As a result, they can be considered safe to use.
 
 - While we try to ensure all features listed in the guide are functioning for everyone, we cannot guarantee an equally satisfactory outcome on your personal devices due to factors such as, but not limited to, unoriginal hardware.
 
