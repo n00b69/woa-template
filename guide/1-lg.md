@@ -34,7 +34,7 @@
 - Extract the contents of **QUD.zip** somewhere.
 - Right click on **QUSB_BULK_CID** and click on **Update driver**.
 ![device update1](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/devmgmt-update1.png)
-- Click on**Browse my computer for drivers**, then find and select the **QUD** folder.
+- Click on **Browse my computer for drivers**, then find and select the **QUD** folder.
 ![device update2](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/devmgmt-update2.png)
 ![device update3](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/devmgmt-update3.png)
 - The drivers should automatically start installing.
@@ -47,7 +47,7 @@
 ![qfil port](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/qfil-selectport.png)
 - At the top, select "Tools" > "Partition manager", and click **Ok**.
 > [!Note]
-> If you see a **Download Fail:Sahara Fail** or **Download Fail:FireHose Fail:FHLoader Fail:Process Fail** error, make sure your cable stays connected and reboot to EDL again by holding **volume down** + **power**, then start rapidly pressing the **volume up** button once the LG logo appears.
+> If you see a **Download Fail:Sahara Fail** or **Download Fail:FireHose Fail:FHLoader Fail:Process Fail** error, make sure your cable stays connected and reboot EDL again by holding **volume down** + **power**, then start rapidly pressing the **volume up** button once the LG logo appears.
 ![qfil sahara error](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/qfil-saharaerror.png)
 - Once you're back in EDL, try opening the Partition manager again.
 - If it still fails, try to repeat the last step a few times. You can also try rebooting your phone and PC.
