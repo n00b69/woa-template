@@ -15,10 +15,13 @@ There are two methods to dualboot Windows. Select the method you would like to u
 REPLACE **PLACEHOLDER1** with:
 > If NABU
 **volume buttons** or **magnetic case**
+
 > If CEPHEUS / LG
 **assistant button**
+
 > If HOTDOG / GUACAMOLE
 **alert slider**
+
 
 > Delete magnetic case info in **LINE 10** if not NABU
 
