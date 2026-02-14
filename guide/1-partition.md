@@ -34,9 +34,19 @@ fastboot boot path\to\modified-recovery.img
 ```
 
 ### Backing up your boot image
-> This will back up your boot image in the currently selected **platform-tools** directory.
+> This will back up your boot image into the currently selected **platform-tools** directory.
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
+```
+
+### Backing up other important partitions
+> This will back up **fsc**, **fsg**, **modemst1** and **modemst2** into the currently selected **platform-tools** directory.
+> 
+> Keep these backups in a safe place. If your device's software ever gets destroyed, you might need these backups or your phone could lose cellular capabilities.
+>
+> If you've got anything else you want to back up, do this now. Your Android data will be erased in the next steps.
+```cmd
+cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
 
 ### Notes
@@ -71,7 +81,7 @@ parted /dev/block/sda
 print
 ``` 
 
-> [!Nore]
+> [!Note]
 > Note to M2K, this whole list is unfinished (I know it looks bad)
 
 > This list may be complicated to understand, so here is a short example showcasing the **userdata** partition.
@@ -105,6 +115,7 @@ rm $
 ![Are you sure you want to continue?](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-usedpartition.png)
 
 > If there are any `udevadm` errors (like pictured below), ignore them.
+> 
 ![udevadm](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/parted-udevadm.png)
 
 ### Recreating userdata
