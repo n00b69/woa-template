@@ -22,6 +22,7 @@
 | 🛜 Wi-Fi                |                                                 | ✅            |
 | 📶 Cellular services       | SIM card must be in SIM1, calling does not work             | ✅            |
 | ⌨️ Side buttons        |                                                 | ✅            |
+| 🖊 Tablet accesoires        | Mostly working, with some limitations                       | ⚠️            |
 | 🛡️ TPM                 | Doesn't support versions below Windows 11 22H2, or above Windows 11 24H2 26100.7171 | ✅            |
 | 🛰️ GPS                 |                                                 | ✅            |
 | 🧭 Sensors              |                                                 | ✅            |
@@ -78,6 +79,7 @@
 | 📞 Cellular calls      |                                                 | ❌            |
 | 💬 SMS                 | SIM card must be in SIM1                    | ✅            |
 
+
 ## ⌨️ Side buttons
 
 | Feature                | Notes                                       | Status         |
@@ -88,6 +90,20 @@
 | ⌨️ Assistant button         |  LG                                             | ❌            |
 | ⌨️ AI button                      |  Opens start menu / used for DBKP     | ✅            |
 | ⌨️ Alert slider                   |  No functionality in Windows / used for DBKP            | ⚠️            |
+
+
+## 🖊 Tablet accesoires
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🖋 Xiaomi Pen       |                                             | ✅            |
+| 🖋 Xiaomi Pen buttons   |                                             | ✅            |
+| 🔌 Xiaomi Pen charging           |                                             | ❌            |
+| 🖋 Third-party pens        | Only pens compatible with Wacom WGP digitizers will work properly        | ⚠️            |
+| 🖋 Third-party pen buttons    | Only if Bluetooth             | ⚠️            |
+| ⌨️ Xiaomi Keyboard        |                                             | ✅            |
+| 💻 Smart Case Mode           | No clue what this is, I guess it is the automatic switching to the "tablet mode" taskbar when you detach the keyboard?      | ❌            |
+
 
 ## 🧭 Sensors
 
