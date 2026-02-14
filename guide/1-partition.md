@@ -33,6 +33,11 @@ cd path\to\platform-tools
 fastboot boot path\to\modified-recovery.img
 ```
 
+> [!Note]
+> If fastboot commands are not working (e.g **< waiting for device >** is displayed on the screen), you may need to install / update your USB drivers using [these instructions](troubleshooting.md#device-is-not-recognized-in-fastboot-or-recovery).
+>
+> Use the same steps again if **adb** commands in recovery fail.
+
 ### Backing up your boot image
 > This will back up your boot image into the currently selected **platform-tools** directory.
 ```cmd
