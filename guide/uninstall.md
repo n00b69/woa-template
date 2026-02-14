@@ -1,55 +1,65 @@
-<img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
+# Uninstalling Windows
 
-# Running Windows on the DEVICENAME
+## Prerequisites
+- [Android Platform Tools](https://developer.android.com/studio/releases/platform-tools)
 
-## Uninstallation
+- [Modified recovery](https://github.com/) (recovery method)
 
-### Why is this needed?
-If you want to uninstall windows this is used instead of deleting partitions manually to avoid human error + writing a whole dedicated guide to just uninstalling.
+- [gpt_both0.bin](https://github.com/hi_lol_lmao/releases/download/Files/gpt_both0.bin) (fastboot method)
 
-If you want to relock your bootloader you'll need your partition table to be stock.
+## Recovery method
 
-### Prerequisites
+### Switch to Android
+> Or your device will not boot into Android after uninstalling Windows
+- Run the **Switch to Android** or **Android** shortcut on your desktop, or flash a **boot.img** backup in fastboot/recovery.
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-  
-- [gpt_both0.bin]() FILE NEEDED
+### Entering fastboot mode
+> The method to enter fastboot mode may differ depending on the device, the most common methods are;
+- Run `adb reboot bootloader` while booted into Android or a potentially already installed custom recovery.
+- Hold the **volume down** while your device is powered off, then plug a USB cable into it.
 
-### Uninstall instructions
-> [!Important]
-> This guide will likely not work, it needs to be updated
+### Boot into the modified recovery
+- > Delete second part of the first line if only 1 recovery is present (e.g vayu)
+- Download the **modified recovery image**. If there are multiple files available, select the one for your Android version / ROM.
+> Replace `path\to\modified-recovery.img` with the actual path to the modified recovery image.
 
-#### Boot into fastboot mode
-> Hold the volume down + power button while the phone is turned off, or run the following command while it is booted
+> [!Note]
+> If there are any spaces in your path, put the path between quotation marks (or change the path altogether) like so: `fastboot boot "path with spaces\to\modified-recovery.img"`
+>
+> Remember this advice and use it later in the guide if necessary, as it will not be repeated.
 ```cmd
-adb reboot bootloader
+fastboot boot path\to\modified-recovery.img
 ```
 
-#### Restore GPT
-> Replace ```path\to\gpt_both0.bin``` with the path to the gpt_both0.bin file.
+### Execute the restore script
+```cmd
+adb shell restore
+```
 
+##### Finished!
+
+
+## Fastboot method 
+> In case the new one didn't work
+
+### Switch to Android
+> Or your device will not boot into Android after uninstalling Windows
+- Run the **Switch to Android** or **Android** shortcut on your desktop, or flash a **boot.img** backup in fastboot/recovery.
+
+### Entering fastboot mode
+> The method to enter fastboot mode may differ depending on the device, the most common methods are;
+- Run `adb reboot bootloader` while booted into Android or a potentially already installed custom recovery.
+- Hold the **volume down** while your device is powered off, then plug a USB cable into it.
+
+### Restore GPT
+> Replace ```path\to\gpt_both0.bin``` with the actual path to the **gpt_both0.bin** file.
 ```cmd
 fastboot flash partition:0 path\to\gpt_both0.bin
 ```
 
-#### Erase userdata to avoid a bootloop and restore FS size
+### Format userdata 
 ```cmd
 fastboot -w
 ```
-> [!Note]
-> If erasing userdata fails, reboot to recovery and wipe all data there instead
 
-## Finished!
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### Finished!
