@@ -14,8 +14,10 @@ This guide assumes you are rooted, if you aren't, please do so first.
 - Verify that the dualboot files have been copied correctly by navigating to the Windows folder in your internal storage and making sure that there is a folder called `sta`. In rare cases, Windows might also be mounted in **/mnt/Windows**. A root file explorer is needed to access this folder.
 
 <details>
-  <summary><strong>Click here if there is no `Windows` folder, the Windows folder is empty, there is no `sta` folder, or if a **Mount failed** popup appears</strong></summary> 
+  <summary><strong>Click here if there is no Windows folder, the Windows folder is empty, there is no sta folder, or if a Mount failed popup appears</strong></summary> 
+
 > If there is no `/sdcard/Windows` or `/mnt/Windows` folder, they are empty, or there simply is no `sta` folder inside of them, your device does not (properly) support mounting and you will have to do some additional steps.
+
 - Make a backup of your `boot.img` by clicking on **BACK UP BOOT.IMG** in **WOA Helper**. Select the **ANDROID** option.
 - Copy the **boot.img** backup (located in your internal storage at `/sdcard/WOAHelper/Backups`) onto a USB stick or upload it to Google Drive or any other cloud space you can easily access later.
 - Do the same thing for the `/sdcard/WOAHelper/sta` folder.
