@@ -1,9 +1,8 @@
 # Project status
 
 - Device: <insert device name here>
-
-> [!Important]
-> **This description is for reference only. It does not represent any commitment to develop Windows on this device in any way, nor does it mean that all functions will be available in the future or that development will continue indefinitely. You should not buy this device for the purpose of using Windows on it, and hope that it will have complete functions in the end. The functions available today should be considered as the most you can get. Take this into consideration when purchasing this device.**
+- Current **Driver** version: v2601.01
+- Current **UEFI** version: v2601.10
 
 # Simple status
 
