@@ -16,7 +16,7 @@
 | 🖥 DisplayPort                 |  Works with certain adapters only             | ⚠️            |
 | 🗺 DualScreen                 |                                                 | ❌            |
 | 🔌 Charging              | Slow charging only                            | ✅            |
-| 💾 SD card                 |                                                 | ✅            |
+| 💾 SD card                 | Windows cannot be installed on an SD card, but SD cards work in Windows | ✅            |
 | 🔵 Bluetooth           |                                                 | ✅            |
 | 🛜 Wi-Fi                |                                                 | ✅            |
 | 📶 Cellular services       | SIM card must be in SIM1, calling does not work             | ✅            |
