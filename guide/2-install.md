@@ -82,9 +82,10 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ![dism getimageinfo](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/dism-getimageinfo.png)
 
 > If you get `Error 433`, `Error 21`, or `Error 5`, it likely means the device got disconnected or the partition is not properly formatted. Format your device's **Windows** volume in Windows explorer by right clicking it, then reapply the Windows image and make sure to not touch the cable or device until the installation finishes.
->
-> If the issue persists, try using another USB port and / or cable.
+
 ![dism error](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/dism-error.png)
+
+> If the issue persists, try using another USB port and / or cable.
 
 ### Installing drivers
 > Before installing the drivers, ensure that Dism has completed the installation first.
