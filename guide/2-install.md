@@ -39,7 +39,7 @@ diskpart
 > This will list all connected drives/volumes. The Windows and ESP volumes of the phone should be listed at the bottom.
 ![diskpart lis vol](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/diskpart-lisvol.png)
 
-> If they aren't, please follow [these instructions](troubleshooting.md#mass-storage-mode-does-not-work)for an alternative way of entering mass storage mode.
+> If they aren't, please follow [these instructions](troubleshooting.md#mass-storage-mode-does-not-work) for an alternative way of entering mass storage mode.
 ```cmd
 list volume
 ```
