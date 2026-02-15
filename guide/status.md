@@ -27,6 +27,7 @@
 | 🧭 Sensors              |                                                 | ✅            |
 | 📳 Vibration motor     |                                                 | ❌            |
 | 🔦 Flashlight          | Accessible only from Windows camera app         | ⚠️            |
+| 💽 Virtualization              | Only WSL 1                                                | ❌            |
 | 📸 Camera flash        |                                                 | ⚠️            |
 | 📸 Camera              |                                                 | ❌            |
 
