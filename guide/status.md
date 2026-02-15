@@ -11,7 +11,7 @@
 | 🔊 Audio               |                                                 | ✅            |
 | 🔋 Battery             |                                                 | ✅            |
 | 🎆 GPU                 |                                                 | ✅            |
-| 👆 Touch               |                                                 | ✅            |
+| 👆 Touch               | 10-point Multi-touch                                                | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
 | 🖥 DisplayPort                 |  Works with certain adapters only             | ⚠️            |
 | 🗺 DualScreen                 |                                                 | ❌            |
@@ -91,7 +91,7 @@
 | ⌨️ Alert slider                   |  No functionality in Windows / used for DBKP            | ⚠️            |
 
 
-## 🖊 Accesories
+## 🖊 Accessories
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
