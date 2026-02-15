@@ -21,8 +21,8 @@
 | 🛜 Wi-Fi                |                                                 | ✅            |
 | 📶 Cellular services       | SIM card must be in SIM1, calling does not work             | ✅            |
 | ⌨️ Side buttons        |                                                 | ✅            |
-| 🖊 Tablet accesoires        | Mostly working, with some limitations                       | ⚠️            |
-| 🛡️ TPM                 | Doesn't support versions below Windows 11 22H2, or above Windows 11 24H2 26100.7171 | ✅            |
+| 🖊 Accessories        | Mostly working, with some limitations                       | ⚠️            |
+| 🛡️ Security                 | Partial                                    | ⚠️            |
 | 🛰️ GPS                 |                                                 | ✅            |
 | 🧭 Sensors              |                                                 | ✅            |
 | 📳 Vibration motor     |                                                 | ❌            |
@@ -39,7 +39,7 @@
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
 | 🔉 Bottom speaker       |                                             | ✅            |
-| 🔉 Top speaker(s)    |                                             | ✅            |
+| 🔉 Top speaker    |                                             | ✅            |
 | 🎧 3.5mm headphone jack |                                             | ✅            |
 | 🎙️ Internal top mic    |                                             | ✅            |
 | 🎙️ Internal bottom mic |                                             | ✅            |
@@ -65,7 +65,6 @@
 | 🔌 Charging (USB)             | Slow charging only, only in USB-Fn mode                           | ✅            |
 | 🔌 Charging (Wireless)             | Slow charging only, only in USB-Fn mode                           | ✅            |
 | 🖥 DisplayPort                 |  Works with certain adapters only, only in USB-Host mode             | ⚠️            |
-| 🗺 DualScreen                 |                                                 | ❌            |
 
 
 ## 📶 Cellular services
@@ -92,7 +91,7 @@
 | ⌨️ Alert slider                   |  No functionality in Windows / used for DBKP            | ⚠️            |
 
 
-## 🖊 Tablet accesoires
+## 🖊 Accesories
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
@@ -102,7 +101,20 @@
 | 🖋 Third-party pens        | Only pens compatible with Wacom WGP digitizers will work properly        | ⚠️            |
 | 🖋 Third-party pen buttons    | Only if Bluetooth             | ⚠️            |
 | ⌨️ Xiaomi Keyboard        |                                             | ✅            |
-| 💻 Smart Case Mode           | No clue what this is, I guess it is the automatic switching to the "tablet mode" taskbar when you detach the keyboard?      | ❌            |
+| 💻 Smart Cover Mode           | Puts device to sleep when magnetic case is closed      | ✅            |
+| 🗺 DualScreen                 |                                                 | ❌            |
+| 💻 Smart Cover Mode           | Puts device to sleep when DualScreen is closed      | ❌            |
+
+
+## 🛡️ Security
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🛡️ TPM                 | Software-backed. Doesn't support versions below Windows 11 22H2, or above Windows 11 24H2 26100.7171 | ✅            |
+| 🛡️ Security processor      | Unavailable                          | ❌            |
+| 🔒 BitLocker      | Available but not recommended                              | ✅            |
+| 🛡️ Secure Boot      |                           | ✅            |
+| 🛡️ Windows Hello Biometrics      | Requires working fingerprint scanner                          | ❌            |
 
 
 ## 🧭 Sensors
