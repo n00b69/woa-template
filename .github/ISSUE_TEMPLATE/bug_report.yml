@@ -41,7 +41,7 @@ body:
           required: true
         - label: I am running Windows 11 on the device.
           required: true
-        - label: There is no issue already describing my problem.
+        - label: There is no (open or closed) issue already describing my problem.
           required: true
 
 
