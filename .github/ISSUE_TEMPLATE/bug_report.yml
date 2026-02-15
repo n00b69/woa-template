@@ -37,9 +37,29 @@ body:
       label: Agreement
       description: By creating this issue I made sure that ...
       options:
-        - label: I am using the latest Drivers.
+        - label: I am using the latest drivers & UEFI.
           required: true
-        - label: I am running Windows 11 on the phone
+        - label: I am running Windows 11 on the device.
           required: true
         - label: There is no issue already describing my problem.
           required: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
