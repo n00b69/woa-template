@@ -163,7 +163,7 @@ set $ esp on
 
 ### Verifying the partitions
 > Use `print` to see all partitions again.
-- Verify that the **userdata** partition is ay least **8GB**.
+- Verify that the **userdata** partition is at least **8GB**.
 - Verify that the **esp** partition is at least **349MB** and has the **boot & esp** flags.
 - Verify that the **win** partition is at least **25GB**.
 
@@ -230,12 +230,6 @@ pkg upgrade
 pkg install root-repo
 ```
 ```cmd
-pkg install parted
-```
-```cmd
-pkg install gptfdisk
-```
-```cmd
 pkg install ntfs-3g
 ```
 ```cmd
@@ -271,7 +265,7 @@ su
 ### Installing Windows
 > Replace `XXXX.esd` with the actual name of the **.esd** file.
 
-> Replace `6` with thw actual **index** number of the desired Windows edition.
+> Replace `6` with the actual **index** number of the desired Windows edition.
 ```cmd
 /data/data/com.termux/files/usr/bin/wimlib-imagex apply /sdcard/Download/XXX.esd 6 /dev/block/by-name/win
 ```
