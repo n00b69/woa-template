@@ -26,9 +26,8 @@
 | 🛰️ GPS                 |                                                 | ✅            |
 | 🧭 Sensors              |                                                 | ✅            |
 | 📳 Vibration motor     |                                                 | ❌            |
-| 🔦 Flashlight          | Accessible only from Windows camera app         | ⚠️            |
+| 🔦 Flashlight          | Accessible only from the Windows Camera app         | ⚠️            |
 | 💽 Virtualization              | Only WSL 1                                                | ❌            |
-| 📸 Camera flash        |                                                 | ⚠️            |
 | 📸 Camera              |                                                 | ❌            |
 
 
@@ -128,3 +127,25 @@
 | 🧭 Proximity           |                                             | ❌            |
 | 🧬 Fingerprint scanner |                                                 | ❌            |
 | 🏷️ NFC                 |                                                 | ❌            |
+
+
+## 🔦 Flashlight
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🔦 Flashlight          | Accessible only from the Windows Camera app         | ⚠️            |
+| 🔦 Strobe light          | Accessible only from the Windows Camera app         | ⚠️            |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
