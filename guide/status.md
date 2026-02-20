@@ -28,7 +28,7 @@
 | 📳 Vibration motor     |                                                 | ❌            |
 | 🔦 Flashlight          | Partial         | ⚠️            |
 | 💽 Virtualization              | Only WSL 1                                                | ❌            |
-| 📸 Camera              |                                                 | ❌            |
+| 📷 Camera              |                                                 | ❌            |
 
 
 # Detailed status
