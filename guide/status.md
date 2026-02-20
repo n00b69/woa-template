@@ -133,8 +133,8 @@
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🔦 Flashlight          | Strobe light function only. Accessible only from the Windows Camera app         | ⚠️            |
-| 🔦 Camera flash          |                | ❌            |
+| 🔦 Flashlight          | Accessible only from the Windows Camera app         | ⚠️            |
+| 📸 Camera flash          |                | ❌            |
 
 
 
