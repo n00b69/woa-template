@@ -26,7 +26,7 @@
 | 🛰️ GPS                 |                                                 | ✅            |
 | 🧭 Sensors              |                                                 | ✅            |
 | 📳 Vibration motor     |                                                 | ❌            |
-| 🔦 Flashlight          | Accessible only from the Windows Camera app         | ⚠️            |
+| 🔦 Flashlight          | Partial         | ⚠️            |
 | 💽 Virtualization              | Only WSL 1                                                | ❌            |
 | 📸 Camera              |                                                 | ❌            |
 
@@ -133,8 +133,8 @@
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🔦 Flashlight          | Accessible only from the Windows Camera app         | ⚠️            |
-| 🔦 Strobe light          | Accessible only from the Windows Camera app         | ⚠️            |
+| 🔦 Flashlight          | Strobe light function only. Accessible only from the Windows Camera app         | ⚠️            |
+| 🔦 Camera flash          |                | ❌            |
 
 
 
