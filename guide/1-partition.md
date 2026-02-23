@@ -169,6 +169,20 @@ mkpart win ntfs 70.3GB -0MB
 set $ esp on
 ``` 
 
+### Verifying the partitions
+> Use `print` to see all partitions again.
+- Verify that the **userdata** partition is at least **8GB**.
+- Verify that the **esp** partition is at least **250MB** and has the **boot & esp** flags.
+- Verify that the **win** partition is at least **25GB**.
+
+> [!Important]
+> If there are any issues, remove the partitions again and try again.
+
+> In the below example, all three partitions are correct.
+![correct partitions](https://raw.githubusercontent.com/n00b69/woa-template/refs/heads/main/guide/images/termux-correctpartitions.png)
+
+> If you continue without ensuring that the partitions are correct, your device may not boot!
+
 ### Exit parted
 ```cmd
 quit
