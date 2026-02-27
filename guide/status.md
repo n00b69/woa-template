@@ -125,6 +125,9 @@
 | 🧭 Light sensor        |                                             | ❌            |
 | 🧭 Magnetometer        |                                             | ✅            |
 | 🧭 Proximity           |                                             | ❌            |
+| 🧭 IR Illuminator           |                                             | ❌            |
+| 🧭 Time of Flight sensor           |                                             | ❌            |
+| 🧬 Hand ID |                                                 | ❌            |
 | 🧬 Fingerprint scanner |                                                 | ❌            |
 | 🏷️ NFC                 |                                                 | ❌            |
 
