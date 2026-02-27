@@ -103,6 +103,7 @@
 | 💻 Smart Cover Mode           | Puts device to sleep when magnetic case is closed      | ✅            |
 | 🗺 DualScreen                 |                                                 | ❌            |
 | 💻 Smart Cover Mode           | Puts device to sleep when DualScreen is closed      | ❌            |
+| ✨️ Notification/Charging LED |                                                 | ❌            |
 
 
 ## 🛡️ Security
