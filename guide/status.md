@@ -18,7 +18,7 @@
 | 🔌 Charging              | Slow charging only                            | ✅            |
 | 💾 SD card                 | Windows cannot be installed on an SD card, but SD cards work in Windows | ✅            |
 | 🔵 Bluetooth           |                                                 | ✅            |
-| 🛜 Wi-Fi                |                                                 | ✅            |
+| 🌐 Wi-Fi                |                                                 | ✅            |
 | 📶 Cellular services       | SIM card must be in SIM1, calling does not work             | ✅            |
 | ⌨️ Side buttons        |                                                 | ✅            |
 | 🖊 Accessories        | Mostly working, with some limitations                       | ⚠️            |
