@@ -50,6 +50,7 @@
 |------------------------|-------------------------------------|----------------|
 | 🔆 Brightness control  |  Brightness might not change properly until screen is turned off and back on        | ✅            |
 | 🎆 x64 emulation      |  Only in Windows 11                          | ✅            |
+| 🖥 Miracast                 |                                                 | ✅            |
 
 
 ## 🪵 USB & Charging
