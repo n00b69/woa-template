@@ -85,7 +85,7 @@
 | 🌐 Wi-Fi (2.4 Ghz)   |                             | ✅            |
 | 🌐 Wi-Fi (5 Ghz)     |                             | ✅            |
 | 🌐 Wi-Fi (6 Ghz)     |                             | ✅            |
-| 📡 Wi-Fi Direct      |                                                 | ❌            |
+| 📡 Wi-Fi Direct      |                             | ✅            |
 | 🖥 Miracast           |                            | ✅            |
 
 
