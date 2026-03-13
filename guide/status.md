@@ -50,7 +50,6 @@
 |------------------------|-------------------------------------|----------------|
 | 🔆 Brightness control  |  Brightness might not change properly until screen is turned off and back on        | ✅            |
 | 🎆 x64 emulation      |  Only in Windows 11                          | ✅            |
-| 🖥 Miracast                 |                                                 | ✅            |
 
 
 ## 🪵 USB & Charging
@@ -77,6 +76,17 @@
 | 📶 Cellular data (5G)   | SIM card must be in SIM1, unsupported on SM8150                    | ⚠️            |
 | 📞 Cellular calls      |                                                 | ❌            |
 | 💬 SMS                 | SIM card must be in SIM1                    | ✅            |
+
+
+## 🌐 Wi-Fi
+
+| Feature                | Notes                               | Status         |
+|------------------------|-------------------------------------|----------------|
+| 🌐 Wi-Fi (2.4 Ghz)   |                             | ✅            |
+| 🌐 Wi-Fi (5 Ghz)     |                             | ✅            |
+| 🌐 Wi-Fi (6 Ghz)     |                             | ✅            |
+| 📡 Wi-Fi Direct      |                                                 | ❌            |
+| 🖥 Miracast           |                            | ✅            |
 
 
 ## ⌨️ Side buttons
