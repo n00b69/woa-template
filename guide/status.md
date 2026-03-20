@@ -4,6 +4,19 @@
 - Current **Driver** version: v2601.01
 - Current **UEFI** version: v2601.10
 
+vvv Delete below note unless LG
+
+> [!Important]
+>
+> The Windows firmware uses EU firmware as a base and the status on this page reflects the status in combination with this firmware.
+>
+> Full support cannot be guaranteed if other firmware is used and Windows may not even boot at all.
+>
+> The firmware used specifically is [G850EMW40D (DEU)](https://drive.google.com/file/d/11UyKKHS-X1BrByJZ5fOpR2cfGjV9BNyu/view)
+>
+> The firmware used specifically is [V500EM40B (idkwhich)](insertlinkhereonceknown)
+
+
 # Simple status
 
 | Feature                | Notes                                           | Status         |
