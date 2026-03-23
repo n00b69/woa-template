@@ -8,13 +8,13 @@ vvv Delete below note unless LG
 
 > [!Important]
 >
-> The Windows firmware uses EU firmware as a base and the status on this page reflects the status in combination with this firmware.
+> The Windows firmware uses specific Android firmware as a base and the status on this page reflects the status in combination with this firmware.
 >
-> Full support cannot be guaranteed if other firmware is used and Windows may not even boot at all.
+> Full support cannot be guaranteed if other firmware is used, and Windows may not even boot at all.
 >
 > The firmware used specifically is [G850EMW40D (DEU)](https://drive.google.com/file/d/11UyKKHS-X1BrByJZ5fOpR2cfGjV9BNyu/view)
 >
-> The firmware used specifically is [V500EM40B (idkwhich)](insertlinkhereonceknown)
+> The firmware used specifically is [V500N40D (LGT)](https://drive.google.com/file/d/1NUZfn_1T8tXgsbh5FpOsdJCwEuyevmGn/view)
 
 
 # Simple status
