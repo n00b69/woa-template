@@ -20,6 +20,7 @@
 > If mass storage mode in the modified recovery does not work, try the below method
 - Reboot back into fastboot mode and download [**msc.img**](https://github.com/n00b69/woa-mh2lm/releases/download/Files/msc.img).
 - Run the below command, replacing `path\to\msc.img` with the actual path of the image.
+> delete this note but msc.img is just the Renegade UEFI
 ```cmd
 fastboot boot path\to\msc.img
 ```
