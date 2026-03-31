@@ -1,9 +1,13 @@
 # Installing Windows without a PC
 
 ## Prerequisites
-- Unlocked bootloader & root access
+- Unlocked bootloader & root access on the device you want to install Windows on (referred to as **target device** in this guide)
 
-- Device must be running Android 12 or newer
+- Any custom recovery that has functioning ADB (TWRP, OrangeFox, LineageOS recovery etc.)
+
+- A second rooted phone (referred to as **host device** in this guide)
+
+- USB-C to USB-C cable (or a combination of a regular USB cable and adapter to connect two phones to each other)
 
 - [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
@@ -21,12 +25,12 @@
 > It is very important that you read the steps very carefully. If you make any mistakes you can brick your device, which can possibly only be solved using a PC.
 
 ### Backing up important partitions
-- Download and install the **WOA Helper** app, then open it and grant it root access.
+- Download and install the **WOA Helper** app on the **target device**, then open it and grant it root access.
 - Click on **BACK UP BOOT.IMG** and select **ANDROID**.
 - Navigate to the `WOAHelper/backups` folder in your internal storage and copy its contents to a USB stick or an SD card (or upload it somewhere online).
 
 ### Setting up Termux
-- Download Termux if you haven't already.
+- Download Termux on the **host device** if you haven't already.
 - In Termux, run the following commands:
 > If there are any Y/N prompts, type Y
 ```cmd
@@ -34,12 +38,6 @@ pkg upgrade
 ```
 ```cmd
 pkg install root-repo
-```
-```cmd
-pkg install parted
-```
-```cmd
-pkg install gptfdisk
 ```
 > After running the below command, accept the root access popup if you haven't already done so earlier.
 ```cmd
@@ -54,12 +52,32 @@ su
 > 
 > Do not run all commands at once, execute them in order and wait for any lengthy operations to finish before continuing.
 
+
+### Boot into recovery
+- Boot your **target device** into an already installed custom recovery. If no custom recovery has been installed, find one that is compatible with your current ROM and install it.
+
+### Connecting the devices
+- Connect both devices to each other using the USB cable and ensure that they are properly connected to each other using the ```adb devices``` command in Termux.
+- Placeholder
+- If no proper connection could be established, run ```adb kill-server``` in Termux, reconnect the cable, and try again.
+> [!Tip]
+> Add tip here for the absolute mess that will unfold from people using USB-C to USN-C cables...
+
+### Pushing necessary files into the target device
+- hhhh
+
+### Opening a shell
+> In Termux, run the below command to open an ADB shell
+```cmd
+adb shell
+```
+
 ### Resizing the partition table
 > By default, the partition limit for Android is too low. This command will increase it to 64 partitions.
 >
 > You will likely be told that you may need to reboot your device, ignore this advice and continue.
 ```cmd
-/data/data/com.termux/files/usr/bin/sgdisk --resize-table 64 /dev/block/sda
+REPLACEWITHACTUALPATH/sgdisk --resize-table 64 /dev/block/sda
 ```
 
 ### Preparing for partitioning
@@ -68,7 +86,7 @@ su
 >
 > If you see any **udevadm** errors, you can ignore these as well.
 ```cmd
-/data/data/com.termux/files/usr/bin/parted /dev/block/sda
+REPLACEWITHACTUALPATH/parted /dev/block/sda
 ```
 
 #### Printing the current partition table
