@@ -72,7 +72,7 @@ vvv Delete below note unless LG
 
 | Feature                         | Notes                                                            | Status         |
 |---------------------------------|------------------------------------------------------------------|----------------|
-| 🪵 USB-Fn (Charging & MTP)   | **[Default]**                                                     | ✅            |
+| 🪵 USB-Fn (Charging & MTP)   | The MTP connection takes 10+ minutes to be recognized by the target machine                                                     | ✅            |
 | 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles) | ⚠️            |
 | 🔌 Charging (USB)             | Slow charging only, only in USB-Fn mode                           | ✅            |
 | 🔌 Charging (Wireless)             | Slow charging only, only in USB-Fn mode                           | ✅            |
